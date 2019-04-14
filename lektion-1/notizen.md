@@ -1,0 +1,1 @@
+Termin festgelegt Montags von 19 - 20 Uhr.
