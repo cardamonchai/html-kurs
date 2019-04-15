@@ -37,7 +37,22 @@ Prettier Plugin installiert -> Ermöglicht es, Dateien automatisch zu formatiere
 - div: Absatz
 - span: Zeichenformat (Inlinetag) kennzeichnet etwas
 
-Vor den Body kommt `head`(Metadatenbereich) In den Body kommt...
+Vor den Body kommt `head`(Metadatenbereich). In den Body kommt der Inhalt der
+Seite.
+
+Nachfolgend die Struktur einer HTML-Seite
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Titel der Seite (Meta Description)</title>
+  </head>
+  <body>
+    ...
+  </body>
+</html>
+```
 
 ## CSS
 
@@ -51,7 +66,3 @@ CSS besteht immer aus zwei Teilen: Property (Name der Eigenschaft) und Value
 (Wert der Eigenschaft)
 
 ### Inline Style
-
-```
-
-```
