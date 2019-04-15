@@ -66,3 +66,5 @@ CSS besteht immer aus zwei Teilen: Property (Name der Eigenschaft) und Value
 (Wert der Eigenschaft)
 
 ### Inline Style
+
+Inline Style geht über das Attribut `style`
