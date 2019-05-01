@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: lightseagreen;
+}
+header {
+  padding: 30px;
+  background: tomato;
+  border-bottom: 1px solid black;
+}
+
+main {
+  padding: 30px;
+  background: lemonchiffon;
+}
+h1 {
+  margin: 0;
+}
+.boxmodel {
+  margin: 30px 50px 100px 50px;
+  border-top: 20px solid yellow;
+  border-right: 10px solid red;
+  border-bottom: 5px solid green;
+  border-left: 1px solid blue;
+  padding: 50px 20px;
+  background: grey;
+}
+footer {
+  padding: 30px 30px 200px 30px;
+  background: tomato;
+  border-top: 1px solid black;
+}
