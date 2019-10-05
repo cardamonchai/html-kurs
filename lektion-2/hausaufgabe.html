@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Lektion 2</title>
     <style>
-        p {
-            color: green;
-        }
+      p {
+        color: green;
+      }
 
-        .einleitung {
-            font-size: 150%;
-        }
+      .einleitung {
+        font-size: 150%;
+      }
 
-        #schluss {
-            font-size: 100px;
-        }
+      #schluss {
+        font-size: 100px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <h1 style="color:tomato">Lektion 2 - CSS Selektoren und semantisches HTML</h1>
-    <p>
-        <h2>Stil und Ordnung</h2></p>
+  <body>
+    <h1 style="color:tomato">
+      Lektion 2 - CSS Selektoren und semantisches HTML
+    </h1>
+    <h2>Stil und Ordnung</h2>
     <p class="einleitung">
-        In der zweiten Lektion lernen wir alles über CSS Selektoren und semantisches HTML. Es geht also um Stil und Ordnung.
+      In der zweiten Lektion lernen wir alles über CSS Selektoren und
+      semantisches HTML. Es geht also um Stil und Ordnung.
     </p>
 
-Die Hausaufgabe besteht im "Übersetzen" der Notizen aus Markdown in HTML.
-    </p>
+    Die Hausaufgabe besteht im "Übersetzen" der Notizen aus Markdown in HTML.
     <h3>Semantisches HTML</h3>
     <ol>
-        <li>Headline eins bis sechs ist möglich.</li>
-        <li>Statt den Absätzen mit einem div zu sagen "Du bist nichts", sagt man ihnen mit einem p "Du bist ein Paragraph".</li>
-        <li>Es gibt zwei Arten von Listen: Geordnete (ol) und ungeordnete (ul).</li>
-        <li>Listen-Items werden immer mit einem li gekennzeichnet.</li>
-        <li>Zitate (Blockquotes) zeichent man mit einem "blockquote" aus.</li>
+      <li>Headline eins bis sechs ist möglich.</li>
+      <li>
+        Statt den Absätzen mit einem div zu sagen "Du bist nichts", sagt man
+        ihnen mit einem p "Du bist ein Paragraph".
+      </li>
+      <li>
+        Es gibt zwei Arten von Listen: Geordnete (ol) und ungeordnete (ul).
+      </li>
+      <li>Listen-Items werden immer mit einem li gekennzeichnet.</li>
+      <li>Zitate (Blockquotes) zeichent man mit einem "blockquote" aus.</li>
     </ol>
+    <h5>Blockquote (Beispiel)</h5>
+    <blockquote>
+      Das ein Beispiel für ein Zitat.
+    </blockquote>
+    <h3>Editierfunktionen</h3>
     <p>
-        <h5>Blockquote (Beispiel)</h5>
-        <blockquote>
-            Das ein Beispiel für ein Zitat.
-        </blockquote>
-        </p>
-    <p>
-        <h3>Editierfunktionen</h3>
+      Zeilen lassen sich mit "Shift" + "Alt" + "Bild runter" vervielfältigen.
     </p>
+    <h3>CSS</h3>
     <p>
-        Zeilen lassen sich mit "Shift" + "Alt" + "Bild runter" vervielfältigen.
+      CSS ist die Abkürzung für "Cascading Style Sheets". Das bedeutet, dass
+      sich alles vom Allgemeinen zum Speziellen hin vererbt.
     </p>
-    <p>
-        <h3>CSS</h3>
-    </p>
-    <p>
-        CSS ist die Abkürzung für "Cascading Style Sheets". Das bedeutet, dass sich
-        alles vom Allgemeinen zum Speziellen hin vererbt.
-    </p>
-<p>
     <ul>
-        <li>Styles: siehe Lektion 1.</li>
-        <li>Eine weitere Methode (neben den Styles), um CSS zu definieren, ist das Style-Tag im Header.</li>
-        <li>Innerhalb des Style-Tags im Header werden Selektoren erstellt. Das Format ist
-        immer: selektor {attribut-name: attributwert;}</li>
-        <li>Tag-Selektor: zum Beispiel "p"vererbt die Eigenschaft an alle Paragraphs.</li>
-        <li>Klassen-Selektor: zum Beispiel ".einleitung" vererbt die Eigenschaften an alle
-        Tags mit der gleichen Klasse.</li>
-        <li>ID-Selektor: zum Beispiel "#schluss" vererbt die Eigenschaften an das Tag mit
-        der ID "schluss".</li>
-        <li>- An jedes Tag kann eine Klasse/class (CSS-Klasse) angefügt werden.</li>
+      <li>Styles: siehe Lektion 1.</li>
+      <li>
+        Eine weitere Methode (neben den Styles), um CSS zu definieren, ist das
+        Style-Tag im Header.
+      </li>
+      <li>
+        Innerhalb des Style-Tags im Header werden Selektoren erstellt. Das
+        Format ist immer: selektor {attribut-name: attributwert;}
+      </li>
+      <li>
+        Tag-Selektor: zum Beispiel "p"vererbt die Eigenschaft an alle
+        Paragraphs.
+      </li>
+      <li>
+        Klassen-Selektor: zum Beispiel ".einleitung" vererbt die Eigenschaften
+        an alle Tags mit der gleichen Klasse.
+      </li>
+      <li>
+        ID-Selektor: zum Beispiel "#schluss" vererbt die Eigenschaften an das
+        Tag mit der ID "schluss".
+      </li>
+      <li>
+        - An jedes Tag kann eine Klasse/class (CSS-Klasse) angefügt werden.
+      </li>
     </ul>
-    </p>
-        </p>
-        <h3>Semantisches HTML</h3>
-        <ul>
-            <li>Alles, was man an ein Tag anfügt, nennt man Attribut: "style","class" und "id".</li>
-            <li>Eine Sprungmarke (Deeplink) wird über "id" definiert (Beispiel: id="schluss") und über einen # in der URL aktiviert - URL kopieren und unter der
-            gewünschten Textstelle verlinken (Beispiel: "https://cardamonchai.com#schluss").
-            </li>
-        </ul>
-        <p>
+    <h3>Semantisches HTML</h3>
+    <ul>
+      <li>
+        Alles, was man an ein Tag anfügt, nennt man Attribut: "style","class"
+        und "id".
+      </li>
+      <li>
+        Eine Sprungmarke (Deeplink) wird über "id" definiert (Beispiel:
+        id="schluss") und über einen # in der URL aktiviert - URL kopieren und
+        unter der gewünschten Textstelle verlinken (Beispiel:
+        "https://cardamonchai.com#schluss").
+      </li>
+    </ul>
+    <p></p>
     <h3 id="schluss">Fazit</h3>
     <p>
-        Mit ein bisschen Mühe kann man eine übersichtliche Seite ohne Schnörkel und Gedöns bauen.
+      Mit ein bisschen Mühe kann man eine übersichtliche Seite ohne Schnörkel
+      und Gedöns bauen.
     </p>
-</body>
-
+  </body>
 </html>
