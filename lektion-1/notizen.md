@@ -58,9 +58,11 @@ Nachfolgend die Struktur einer HTML-Seite
 
 CSS kann man auf drei verschiedene Arten an Elemente anbauen
 
-- Inline Style
-- Im Head-Tag stylen
-- über eine Extra-Datei
+- Inline Style (an der Stelle, an der der Style verändert werden soll, wird er
+  auch ausgezeichnet)
+- Im Head-Tag stylen (Style Tag innerhalb des Heads)
+- über eine Extra-Datei (kommt aus einer anderen Datei und wird von dort
+  importiert)
 
 CSS besteht immer aus zwei Teilen: Property (Name der Eigenschaft) und Value
 (Wert der Eigenschaft)
